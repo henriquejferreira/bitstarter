@@ -1,3 +1,9 @@
+fs.readFile(__dirname + '/index.html',
+  function (err, data) {
+    if (err) {
+      res.writeHead(500);
+      return res.end('Error loading index.html');
+    }
 var express = require('express');
 var app = express();
 var fs = require('fs');
