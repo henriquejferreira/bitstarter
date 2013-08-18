@@ -1,4 +1,14 @@
 *********heroku commands********
+///login
+heroku login
+-login
+
+ssh-keygen -t rsa
+-generates key
+
+heroku keys:add
+-adds key for heroku
+
 git remote rm origin
 -Add the new remote
 
