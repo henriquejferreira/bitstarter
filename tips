@@ -1,5 +1,4 @@
 
-
 *********heroku commands********
 git remote rm origin
 -Add the new remote
@@ -10,5 +9,68 @@ git remote add origin <URL to new heroku app>
 git push -u origin master
 -The -u will set this up as tracked.
 
+**********git**********
+
 git remote -v 
 -shows the name of the remote and the URL
+
+sha-1 
+-maps a file to a bit string. Easy to compare 2 files
+
+git add <filename>
+-add a file to the local repositarory
+
+git status
+- shows the status of the commits.
+
+git commit -m <filename>
+-commit a file to local repo with a messege(-m)
+
+git log -p --color
+-shows log of the commits with color
+
+git diff --color <filename>
+-show the difference of a file with color
+
+********emacs commands*************
+C = control
+M = meta
+
+emacs -nw <filename>
+-opens emac with configuration
+
+C-x 3
+-split window
+
+C-c ! 
+-node repl
+
+M-i
+-swith between windows
+
+C-c C-j
+-push line into repl
+
+C-<space> 
+-selection
+
+C-c C-r
+-push selection to repl
+
+C-x C-s
+-save
+
+C-c C-u
+-save compiler
+
+M-g G
+-jumps to line
+
+C-x C-c
+-exits permenantly
+
+****node repl
+C-m
+-jumps 2 error
+
+
